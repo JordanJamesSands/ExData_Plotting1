@@ -1,6 +1,9 @@
 #plot4
 
 source('read_data.R')
+source('plot2.R')
+source('plot3.R')
+
 power <- readData()
 png(file = 'plot4.png')
 par(mfcol=c(2,2))
